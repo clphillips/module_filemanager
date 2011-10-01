@@ -27,10 +27,10 @@ That's it! ModuleFilemanager will automatically print the necessary javascript w
 
 `$.ee_filebrowser` passes an object containing details about the file uploaded or selected from the file manager when the tigger is invoked. They are:
 
--`a.thumb` string. The URI of the thumbnail for the file.
--`a.name` string. The name of the file.
--`a.directory` string. The path to the directory where the file is stored.
--`a.is_image` boolean. Whether or not the file is an image.
+- `a.thumb` string. The URI of the thumbnail for the file.
+- `a.name` string. The name of the file.
+- `a.directory` string. The path to the directory where the file is stored.
+- `a.is_image` boolean. Whether or not the file is an image.
 
 These parameters come care of EE's built-in file manager, so your results may vary. You should consult the EE documentation for more details. Oh, that's right... it's not in their docs. Bummer.
 
